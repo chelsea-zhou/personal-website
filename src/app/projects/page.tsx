@@ -35,9 +35,9 @@ const projects: Project[] = [
     description: "Find top 10 semantically similar essays from a pool of 100 essays with your essay as the query",
     technologies: ["Semantic Embedding", "Cosine Similarity"],
     imageUrl: "/dancing.jpg",
-    githubUrl: "https://chenshuz.substack.com/p/finding-top-10-matches-from-100-essays"
+    githubUrl: "https://github.com/chelsea-zhou/finding-top-10-matches-from-100-essays",
+    substackUrl: "https://chenshuz.substack.com/p/finding-top-10-matches-from-100-essays",
   }
-
 ];
 
 export default function ProjectsPage() {

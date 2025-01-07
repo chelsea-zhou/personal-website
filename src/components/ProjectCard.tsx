@@ -38,7 +38,7 @@ const ProjectTechnologies = ({ technologies }: { technologies: string[] }) => (
 );
 
 // Component for the project links
-const ProjectLinks = ({ githubUrl, liveUrl }: { githubUrl: string; liveUrl?: string }) => (
+const ProjectLinks = ({ githubUrl, liveUrl, substackUrl }: { githubUrl: string; liveUrl?: string; substackUrl?: string }) => (
   <div className="flex gap-4">
     {liveUrl && (
       <a
@@ -48,6 +48,16 @@ const ProjectLinks = ({ githubUrl, liveUrl }: { githubUrl: string; liveUrl?: str
         className="text-blue-600 hover:text-blue-800 dark:text-blue-400"
       >
         Live
+      </a>
+    )}
+      {substackUrl && (
+      <a
+        href={substackUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:text-blue-800 dark:text-blue-400"
+      >
+        Article
       </a>
     )}
     <a
@@ -72,7 +82,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             <div className="p-6">
                 <ProjectInfo title={project.title} description={project.description} />
                 <ProjectTechnologies technologies={project.technologies} />
-                <ProjectLinks githubUrl={project.githubUrl} liveUrl={project.liveUrl} />
+                <ProjectLinks githubUrl={project.githubUrl} liveUrl={project.liveUrl} substackUrl={project.substackUrl} />
             </div>
         </div>
     )

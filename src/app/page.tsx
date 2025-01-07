@@ -10,12 +10,13 @@ export default function Home() {
           I create things that help us better understand ourselves, make sense of the world, and connect with others. <br />
         </p>
         <Image
-            src="/typewriter.jpg"  // Replace with your image path
+            src="/typewriter.jpg"  
             alt="Profile picture"
             width={500}
             height={500}
-            className="object-cover object-center w-full h-[600px]"  // Added this line
+            className="object-cover object-center w-full h-[600px]"
           />  
+         
       </main>
     </div>
   );

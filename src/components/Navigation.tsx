@@ -26,6 +26,12 @@ export default function Navigation() {
               >
                 Now
               </a>
+              <a 
+                href="/contact" 
+                className="hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+              >
+                Contact
+              </a>
             </div>
           </div>
         </div>

@@ -76,7 +76,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
     return(
         <div 
             key={project.id}
-            className="border-2 border-green-700 bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden w-96"
+            className="border-2 border-gray-400 bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden w-96"
         >
             <ProjectImage imageUrl={project.imageUrl} title={project.title} />
             <div className="p-6">

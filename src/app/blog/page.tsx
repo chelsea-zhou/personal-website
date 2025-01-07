@@ -30,12 +30,12 @@ function BlogCard({ language, title, description, img, link }: { language: strin
 export default function BlogPage() {
     return (
         <div className="container mx-auto px-4 py-8 mt-16 max-w-5xl">
-            <h1 className="text-3xl font-bold mb-8">Blog</h1>
-            <p className="text-xl mb-2">
+            <h1 className="text-3xl font-bold mb-4">Blog</h1>
+            <p className="text-lg">
                 I write biweekly essays on my thoughts and learnings, as a way to memoize through life's dynamic problems.
             </p>
 
-            <div className="flex flex-col gap-20 mt-12 max-w-3xl">
+            <div className="flex flex-col gap-10 mt-8 max-w-3xl">
                 <BlogCard 
                     language="English"
                     title="Letters from far away" 

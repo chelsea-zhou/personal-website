@@ -37,17 +37,18 @@ export default function ContactPage() {
   ]
 
   return (
-    <main className="max-w-2xl mx-auto py-12 px-4 mt-16">
-      <h1 className="text-3xl font-bold mb-8">Get in Touch</h1>
+    
+    <main className="max-w-5xl mx-auto py-12 px-4 mt-16">
+      <h1 className="text-3xl font-bold mb-8">Contact Me</h1>
       
       <div className="flex items-center gap-12">
-        <div className="overflow-hidden w-[400px] h-[450px]">
+        <div className="overflow-hidden w-[500px] h-[600px] rounded-lg border-2 border-gray-300" >
             <Image 
                 src="/home.jpg" 
                 alt="Profile picture" 
                 width={500} 
                 height={500} 
-                className="object-cover w-[180%] h-[130%]" 
+                className="object-cover w-full h-[130%] " 
             />
         </div>
         

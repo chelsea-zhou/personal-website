@@ -4,10 +4,10 @@ function BlogCard({ language, title, description, img, link }: { language: strin
     return (
 
             <div className="space-y-4">
-                <h2 className="text-xl font-bold mb-2">{language}</h2>
+                <h2 className="text-xl font-bold mb-2 ">{language}</h2>
                 <a 
                     href={link} 
-                    className="text-xl text-blue-600 hover:text-blue-800 transition-colors"
+                    className="text-xl text-blue-600 hover:text-blue-500 transition-colors"
                 >
                 <div className="flex flex-col items-start space-y-4">
                     <Image 
@@ -17,7 +17,7 @@ function BlogCard({ language, title, description, img, link }: { language: strin
                         height={300} 
                         className="rounded-lg object-cover w-full h-[300px]"
                     />
-                    <span className="text-xl text-blue-600">
+                    <span className="text-xl text-blue-500">
                         {title}
                     </span>
                 </div>

@@ -7,7 +7,7 @@ const projects: Project[] = [
     id: 1,
     title: "Ideas Gym",
     description: "Overcome writer's block by chatting with an AI thought partner for 20 minutes",
-    technologies: ["React", "TypeScript", "Tailwind", "Stripe Integration"],
+    technologies: ["React", "TypeScript", "Tailwind", "PostgreSQL", "Stripe Integration"],
     imageUrl: "/plato.jpg",
     githubUrl: "https://github.com/chelsea-zhou/ideas-gym",
     liveUrl: "https://ideas-gym.vercel.app"
@@ -25,7 +25,7 @@ const projects: Project[] = [
     id: 3,
     title: "ConverseChronicle",
     description: "An iOS meeting scribe app. Never miss a meaningful conversation with your friend.",
-    technologies: ["React-Expo", "Deepgram", "Express"],
+    technologies: ["React-Native", "Deepgram", "PostgreSQL", "Express"],
     imageUrl: "/2frog.jpg",
     githubUrl: "https://github.com/fractal-bootcamp/ConverseChronicle"
   },
@@ -35,7 +35,7 @@ const projects: Project[] = [
     description: "Find top 10 semantically similar essays from a pool of 100 essays with your essay as the query",
     technologies: ["Semantic Embedding", "Cosine Similarity"],
     imageUrl: "/dancing.jpg",
-    githubUrl: "https://chenshuz.substack.com/p/finding-top-10-matches-from-100-essays",
+    githubUrl: "https://github.com/chelsea-zhou/essay_similarity",
     substackUrl: "https://chenshuz.substack.com/p/finding-top-10-matches-from-100-essays",
   }
 ];
